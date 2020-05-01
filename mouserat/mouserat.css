@@ -1,0 +1,105 @@
+body {
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(bandtwo.jpg);
+  height: 100vh;
+  color: white;
+  background-position: center;
+}
+
+/*logo*/
+.logo {
+  margin-top: 30px;
+  float: left;
+  height: auto;
+  width: 150px;
+  padding: 13px 43px;
+  margin-bottom: 20px;
+}
+/*logo*/
+
+/*navbar*/
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  ;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+}
+
+.main-nav li.active a {
+  color: #FFBD33;
+}
+
+.main-nav li a:hover {
+  color: #FFBD33;
+  transition: 0.5s;
+}
+/*navbar*/
+
+/*live button*/
+button {
+  margin: 8px;
+  padding: 13px 43px;
+  border: 2px solid #FFBD33;
+  background: transparent;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+}
+
+button:hover {
+  color: black;
+  background: #FFBD33;
+  transition: 0.3s;
+}
+/*live button*/
+
+/*hero*/
+.hero {
+  position: absolute;
+  top: 42%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 120px;
+  font-weight: 400;
+  text-shadow: 5px;
+  margin-bottom: 8px;
+}
+
+.hero button {
+  color: black;
+  background: #FFBD33;
+  border: 2px solid #FFBD33;
+  border-radius: 30px;
+  font-size: 22px;
+}
+
+.hero button:hover {
+  color: white;
+  background: transparent;
+  transition: 0.3s;
+}
+/*hero*/
